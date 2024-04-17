@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0px;
+
+  }
+  .container{
+    
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    width: 380px;
+    text-align: center;
+    top: 40px; 
+    left: 20px; 
+    width: 380px; 
+    height: 402px;
+    min-width: 500px;
+    margin: auto;
+    background-color: transparent;
+  }
+
+  
+  .input input{
+    width: 100%;
+    padding: 0px;
+    font-family:sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: 3em;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(249, 249, 249);
+  }
+  .mainCon{
+    border: 10px solid;
+    border-radius: 30px;
+    display: grid;
+    width: 412px; 
+    height: 497px;
+    padding: 15px;
+    background-color: transparent;
+  
+  }
+  .calbox input{
+    outline: none;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    font-size: 1.5em;
+    margin: 5px;
+    padding: .3px;
+    width: 20%;
+    height: 60px;
+    box-shadow: inset -18px -8px 15px 5px #ffffff;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .calbox input:hover{
+    font-size: 2em;
+    margin-top: -2px;
+    /* border-radius: 65px; */
+    }
+    body {
+        background-image: url(
+          "bg.jpg");
+        background-repeat:no-repeat; 
+        background-size: 275%;
+        margin-top: 10%;
+    }
+    
